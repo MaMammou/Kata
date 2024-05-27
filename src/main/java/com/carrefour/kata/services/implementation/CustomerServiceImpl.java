@@ -66,7 +66,7 @@ public class CustomerServiceImpl implements CustomerServiceInterface {
     }
 
     @Override
-    public List<Customer> findCustomer() {
+    public List<Customer> findCustomers() {
         return customerRepository.findAll();
     }
 }

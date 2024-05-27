@@ -7,9 +7,9 @@ import java.util.List;
 public interface CustomerDeliveryServiceInterface {
 
 
-     void addCustomerDelivery(CustomerDelivery customerDelivery);
+     CustomerDelivery addCustomerDelivery(CustomerDelivery customerDelivery);
 
-     void updateCustomerDelivery(CustomerDelivery customerDelivery);
+     CustomerDelivery updateCustomerDelivery(CustomerDelivery customerDelivery);
 
      void deleteCustomerDelivery(CustomerDelivery customerDelivery);
 

@@ -13,5 +13,5 @@ public interface CustomerServiceInterface {
 
     Customer findCustomerById(Long id);
 
-    List<Customer> findCustomer();
+    List<Customer> findCustomers();
 }
